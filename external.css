@@ -1,0 +1,174 @@
+/* general styling */ 
+
+:root {
+   --color1: #3498db;
+   --color2: #e1e73c;
+   --color3: #e74c3c;
+   --color4: #2ecc71;
+   --color5: #9b59b6;
+   --color6: #e4630d;
+   --color7: #c1135b;
+   --color8: #d72caa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* art piece */
+
+.art-piece {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 95%;
+    background-color: #f0f0f0;
+}
+ /* The letter F div */
+
+.letter-f {
+    display: flex;
+}
+
+.f-shape1 {
+    position:fixed;
+    left: 0;
+    top: 25%;
+    width: 100px;
+    height: 200px;
+    background-color: var(--color1);
+    z-index: 3;
+}
+
+.f-shape2 {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: var(--color4);
+    z-index: 4s;
+}
+
+.f-shape3 {
+    display: none;
+    position: fixed;
+    top: 30%;
+    width: 100px;
+    height: 200px;
+    background-color: #e74c3c;
+    z-index: 3;
+}
+
+.f-shape4 {
+    display: none;
+    position: fixed;
+    top: 30%;
+    width: 100px;
+    height: 200px;
+    background-color: #e74c3c;
+    z-index: 3;
+}
+
+.f-shape5 {
+    display: none;
+    position: fixed;
+    top: 30%;
+    width: 100px;
+    height: 200px;
+    background-color: #e74c3c;
+    z-index: 3;
+}
+
+.f-shape6 {
+    display: none;
+    position: fixed;
+    top: 30%;
+    width: 100px;
+    height: 200px;
+    background-color: #e74c3c;
+    z-index: 3;
+}
+
+.f-shape7 {
+    display: none;
+    position: fixed;
+    top: 30%;
+    width: 100px;
+    height: 200px;
+    background-color: #e74c3c;
+    z-index: 3;
+}
+
+/* The letter S div */
+
+.circle-one {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    z-index: 2;        
+}
+
+.circle-two {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    z-index: 2;        
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 170px solid #2ecc71;
+    z-index: 4;
+}
+
+/* form styling */
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: 600;;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="text"], 
+input[type="email"] {
+    width: 25%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
